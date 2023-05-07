@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@nxrocks/nx-flutter": "^7.0.2",
+    "nx": "16.1.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

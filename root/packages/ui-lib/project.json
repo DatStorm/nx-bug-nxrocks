@@ -1,0 +1,114 @@
+{
+  "name": "ui-lib",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/ui-lib/src",
+  "projectType": "library",
+  "targets": {
+    "analyze": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter analyze",
+        "cwd": "packages/ui-lib"
+      }
+    },
+    "clean": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter clean",
+        "cwd": "packages/ui-lib"
+      }
+    },
+    "format": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter format packages/ui-lib/*",
+        "cwd": "packages/ui-lib"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter test",
+        "cwd": "packages/ui-lib"
+      }
+    },
+    "doctor": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter doctor",
+        "cwd": "packages/ui-lib"
+      }
+    },
+    "build-aar": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build aar",
+        "cwd": "packages/ui-lib"
+      },
+      "outputs": [
+        "{workspaceRoot}/packages/ui-lib/build"
+      ]
+    },
+    "build-apk": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build apk",
+        "cwd": "packages/ui-lib"
+      },
+      "outputs": [
+        "{workspaceRoot}/packages/ui-lib/build"
+      ]
+    },
+    "build-appbundle": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build appbundle",
+        "cwd": "packages/ui-lib"
+      },
+      "outputs": [
+        "{workspaceRoot}/packages/ui-lib/build"
+      ]
+    },
+    "build-bundle": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build bundle",
+        "cwd": "packages/ui-lib"
+      },
+      "outputs": [
+        "{workspaceRoot}/packages/ui-lib/build"
+      ]
+    },
+    "build-ios": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build ios",
+        "cwd": "packages/ui-lib"
+      },
+      "outputs": [
+        "{workspaceRoot}/packages/ui-lib/build"
+      ]
+    },
+    "build-ios-framework": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build ios-framework",
+        "cwd": "packages/ui-lib"
+      },
+      "outputs": [
+        "{workspaceRoot}/packages/ui-lib/build"
+      ]
+    },
+    "build-ipa": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build ipa",
+        "cwd": "packages/ui-lib"
+      },
+      "outputs": [
+        "{workspaceRoot}/packages/ui-lib/build"
+      ]
+    }
+  },
+  "tags": []
+}
